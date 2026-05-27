@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Home",
+    "book": "Book Now",
+    "dashboard": "Dashboard",
+    "stats": "Statistics",
+    "orders": "Orders",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "The Perfect Coffee Cart for Your Event",
+    "subtitle": "Make your occasion unforgettable with professional coffee from Drift Coffee",
+    "cta": "Book Now"
+  },
+  "features": {
+    "title": "Why Drift Coffee?",
+    "subtitle": "We bring the best mobile coffee experience to your events",
+    "premium": {
+      "title": "Premium Coffee",
+      "desc": "Finest fresh beans with a professional barista"
+    },
+    "flexible": {
+      "title": "Fully Flexible",
+      "desc": "We come to you anywhere in the Gulf region"
+    },
+    "elegant": {
+      "title": "Elegant Experience",
+      "desc": "Stylish modern cart suitable for all occasions"
+    }
+  },
+  "booking": {
+    "title": "Book a Coffee Cart",
+    "subtitle": "Fill in the form and we'll get back to you soon",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "e.g. Ahmed Mohammed Abdullah",
+    "phone": "Phone Number",
+    "phonePlaceholder": "e.g. 512345678",
+    "country": "Country",
+    "selectCountry": "-- Select Country --",
+    "city": "Region / City",
+    "selectCity": "-- Select Region --",
+    "location": "Select Location on Map",
+    "chooseOnMap": "Choose on Map",
+    "detectLocation": "Detect My Location",
+    "cupsCount": "Number of Cups",
+    "cupsMin": "Minimum 1 cup",
+    "eventType": "Event Type",
+    "eventTypes": {
+      "events": "Events",
+      "wedding": "Wedding",
+      "graduation": "Graduation",
+      "family": "Family Event",
+      "engagement": "Engagement",
+      "other": "Other"
+    },
+    "sweetOption": "Would you like sweets with the order?",
+    "yes": "Yes",
+    "no": "No",
+    "notes": "Additional Notes (optional)",
+    "notesPlaceholder": "Any extra details you'd like to add...",
+    "submit": "Book Now",
+    "submitting": "Submitting...",
+    "success": "Your booking has been submitted successfully! We'll contact you soon.",
+    "locationOptional": "📍 Optional: Pin your location on the map",
+    "regions": {
+      "SA": [
+        "Riyadh Region", "Makkah Region", "Madinah Region",
+        "Al-Qassim Region", "Eastern Region", "Asir Region",
+        "Tabuk Region", "Hail Region", "Northern Borders Region",
+        "Jazan Region", "Najran Region", "Al-Bahah Region", "Al-Jawf Region"
+      ],
+      "AE": [
+        "Abu Dhabi Emirate", "Dubai Emirate", "Sharjah Emirate",
+        "Ajman Emirate", "Ras Al Khaimah Emirate", "Fujairah Emirate", "Umm Al Quwain Emirate"
+      ],
+      "KW": [
+        "Capital Governorate", "Hawalli Governorate", "Farwaniya Governorate",
+        "Ahmadi Governorate", "Jahra Governorate", "Mubarak Al-Kabeer Governorate"
+      ],
+      "QA": [
+        "Doha Municipality", "Al Rayyan Municipality", "Al Wakrah Municipality",
+        "Umm Salal Municipality", "Al Khor & Al Thakhira", "Al Shamal Municipality",
+        "Al Daayen Municipality", "Mesaieed Municipality"
+      ],
+      "BH": [
+        "Capital Governorate", "Muharraq Governorate", "Northern Governorate", "Southern Governorate"
+      ],
+      "OM": [
+        "Muscat Governorate", "Dhofar Governorate", "Musandam Governorate",
+        "Al Buraimi Governorate", "Ad Dakhiliyah Governorate", "North Al Batinah Governorate",
+        "South Al Batinah Governorate", "North Al Sharqiyah Governorate", "South Al Sharqiyah Governorate",
+        "Ad Dhahirah Governorate", "Al Wusta Governorate"
+      ]
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalBookings": "Total Bookings",
+    "byCountry": "Bookings by Country",
+    "recentBookings": "Recent Bookings",
+    "search": "Search...",
+    "allCountries": "All Countries",
+    "allStatuses": "All Statuses",
+    "new": "New",
+    "contacting": "Contacting",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "actions": "Actions",
+    "view": "View",
+    "delete": "Delete",
+    "noBookings": "No bookings yet",
+    "noBookingsDesc": "When bookings are submitted, they will appear here",
+    "error": "An error occurred while loading data",
+    "tryAgain": "Try Again",
+    "last30Days": "Last 30 Days",
+    "location": "Location",
+    "close": "Close",
+    "deleteConfirm": "Are you sure you want to delete this booking?",
+    "statusUpdated": "Status updated successfully"
+  },
+  "login": {
+    "title": "Admin Login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "submitting": "Logging in...",
+    "error": "Invalid login credentials",
+    "welcome": "Welcome back"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  }
+}

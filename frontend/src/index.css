@@ -1,0 +1,230 @@
+@import "tailwindcss";
+
+@theme {
+  --font-zain: 'Zain', sans-serif;
+
+  --color-coffee-950: #1a0f0a;
+  --color-coffee-900: #2C1810;
+  --color-coffee-800: #3E2218;
+  --color-coffee-700: #5C3A2A;
+  --color-coffee-600: #7A4E3A;
+  --color-coffee-500: #A67B5B;
+  --color-coffee-400: #C4A882;
+  --color-coffee-300: #D4BFA5;
+  --color-coffee-200: #E8D5C4;
+  --color-coffee-100: #F5EDE4;
+  --color-coffee-50: #FBF7F2;
+
+  --color-caramel-500: #C68E5E;
+  --color-caramel-400: #D4A67A;
+  --color-caramel-300: #E2BE96;
+  --color-mocha-500: #8B6B4A;
+  --color-mocha-400: #A58564;
+}
+
+body {
+  font-family: var(--font-zain);
+  background-color: var(--color-coffee-50);
+  color: var(--color-coffee-900);
+}
+
+html.dark body {
+  background-color: var(--color-coffee-950);
+  color: var(--color-coffee-100);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html[dir="rtl"] {
+  text-align: right;
+}
+
+html[dir="ltr"] {
+  text-align: left;
+}
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+html.dark .glass {
+  background-color: rgba(44, 24, 16, 0.7);
+  border-color: rgba(92, 58, 42, 0.2);
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--color-coffee-100);
+}
+
+html.dark .card {
+  background-color: var(--color-coffee-900);
+  border-color: rgba(62, 34, 24, 0.5);
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transform: scale(1.01);
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8125rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-coffee-200);
+  background-color: white;
+  color: var(--color-coffee-900);
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .input-field {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+html.dark .input-field {
+  border-color: var(--color-coffee-700);
+  background-color: var(--color-coffee-800);
+  color: var(--color-coffee-100);
+}
+
+.input-field::placeholder {
+  color: var(--color-coffee-400);
+}
+
+html.dark .input-field::placeholder {
+  color: var(--color-coffee-500);
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--color-coffee-500);
+  box-shadow: 0 0 0 3px rgba(166, 123, 91, 0.2);
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  background-color: var(--color-coffee-800);
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.025em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+html.dark .btn-primary {
+  background-color: var(--color-coffee-700);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: var(--color-coffee-700);
+}
+
+html.dark .btn-primary:hover:not(:disabled) {
+  background-color: var(--color-coffee-600);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-ghost {
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  color: var(--color-coffee-700);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+html.dark .btn-ghost {
+  color: var(--color-coffee-300);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-coffee-100);
+}
+
+html.dark .btn-ghost:hover {
+  background-color: var(--color-coffee-800);
+}
+
+.btn-ghost:active {
+  transform: scale(0.95);
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.badge-new {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+html.dark .badge-new {
+  background-color: rgba(30, 64, 175, 0.3);
+  color: #93c5fd;
+}
+
+.badge-contacting {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+html.dark .badge-contacting {
+  background-color: rgba(180, 83, 9, 0.3);
+  color: #fcd34d;
+}
+
+.badge-completed {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+html.dark .badge-completed {
+  background-color: rgba(21, 128, 61, 0.3);
+  color: #86efac;
+}
+
+.badge-cancelled {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+html.dark .badge-cancelled {
+  background-color: rgba(185, 28, 28, 0.3);
+  color: #fca5a5;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
